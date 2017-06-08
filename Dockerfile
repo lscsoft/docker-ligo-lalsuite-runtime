@@ -7,4 +7,5 @@ LABEL name="LALSuite Runtime Debian Jessie" \
 
 RUN apt-get update && \
       apt-get --assume-yes install lscsoft-lalsuite && \
-      apt-get --assume-yes remove lal
+      apt-get --assume-yes remove lal && \
+      rm -rf /var/lib/apt/lists/*
