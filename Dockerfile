@@ -1,6 +1,6 @@
-FROM ligo/base:jessie
+FROM ligo/base:jessie-proposed
 
-LABEL name="LALSuite Runtime Debian Jessie" \
+LABEL name="LALSuite Runtime Debian Jessie - Proposed" \
       maintainer="Adam Mercer <adam.mercer@ligo.org>" \
       date="20170608" \
       support="Reference Platform"
