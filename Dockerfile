@@ -1,8 +1,8 @@
-FROM ligo/base:jessie
+FROM ligo/base:stretch
 
-LABEL name="LALSuite Runtime Debian Jessie" \
+LABEL name="LALSuite Runtime - Debian Stretch" \
       maintainer="Adam Mercer <adam.mercer@ligo.org>" \
-      date="20170608" \
+      date="20180426" \
       support="Reference Platform"
 
 RUN apt-get update && \
